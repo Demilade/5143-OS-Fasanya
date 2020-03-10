@@ -1,0 +1,20 @@
+Stock Market Simulation Requirements:
+
+Stock Market – 
+Contains random companies with their stock prices.
+Stock Prices fluctuate up and down randomly
+Sends out list of companies and price of stocks to client and bank periodically
+Checks with bank to see if this client has sufficient funds to make purchase
+
+Bank – 
+Holds account balances of clients
+Gets prices of companies’ stocks from stock market and awaits purchase from a buyer/client
+Confirms to stock market that buyer has sufficient funds for a purchase
+
+Client –
+Looks up stock prices it gets from the stock market and decides what to purchase
+Sends request to stock market of intent to purchase a stock.
+Requests account balance from bank
+
+Signer –
+Verifies a purchase
